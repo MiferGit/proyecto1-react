@@ -1,0 +1,24 @@
+.title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 4px 3px 4px rgb(31, 29, 29);
+    font-size: 3rem;
+    font-family: Bungee Spice, sans-serif;
+    transition-duration: 19s;
+    transition-timing-function: ease-in-out;
+    &:hover{
+        transition: 0s ease;
+        transform: rotateY(360deg);
+    }
+    &::after {
+        content: '🍂';
+        font-size: 60px; 
+    }
+    &::before {
+        content: '🍂';   
+        font-size: 60px;
+         
+    }
+   
+}

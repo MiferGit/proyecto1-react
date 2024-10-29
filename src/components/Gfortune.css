@@ -1,0 +1,38 @@
+.c-phrase {
+    background-image: url('./public/rectangle.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 800px;
+    height: 351px;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    margin: 2em;
+    
+   
+    
+ 
+}
+.c-text {
+    display: flex;
+    justify-content: center;
+    font-family: Poppins;
+    font-size: 1.3rem;
+    text-shadow: .9px .8px 2px rgb(116, 112, 107);
+    margin: 0px 13px 0px 13px;
+    
+   
+}
+
+.c-author {
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 3px gray;
+    &::after {
+        content: '💕';
+        font-size: 30px;      
+    }
+   
+}
+

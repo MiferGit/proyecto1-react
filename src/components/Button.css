@@ -1,0 +1,18 @@
+.c-button {
+    background-color: rgb(222, 224, 226);
+    border-radius: 10px;
+    border: hidden;
+    width: 125px;
+    height: 62px;
+    box-shadow: 3px 4px 4px rgb(27, 26, 26);
+    font-family: Bungee Spice;
+    font-size: 1rem;
+    text-shadow: 2px 3px 3px black;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    &:hover {
+        transition: 1.6s;
+        transform:scale(137%);
+        background-color: #3bcfb7;
+    }
+}
