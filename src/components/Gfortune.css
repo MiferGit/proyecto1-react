@@ -1,5 +1,5 @@
 .c-phrase {
-    background-image: url('./public/rectangle.svg');
+    background-image: url('public/rectangle.svg');
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 800px;
